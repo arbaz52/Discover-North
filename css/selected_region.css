@@ -1,0 +1,12 @@
+.selected_region {
+
+}
+.selected_region .vertical_buttons {
+	text-align: center;
+}
+.selected_region .vertical_buttons * {
+	background: 0;
+	padding: 10px 10px;
+	border: 1px solid #ccc;
+	outline: none;
+}

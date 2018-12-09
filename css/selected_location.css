@@ -1,0 +1,62 @@
+.selected_location .location_name {
+	font-size: 17px;
+	margin-bottom: 5px;
+	font-weight: normal;
+}
+.selected_location .selected_location_name {
+	font-size: 25px;
+	font-weight: bold !important;
+}
+.some_information {
+	overflow: auto;
+}
+.selected_location .left_side {
+	float: left;
+}
+.selected_location .right_side {
+	float: right;	
+	text-align: right;
+}
+.selected_location .stars * {
+	border: 0;
+	background: transparent;
+	color: #e67e22;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+.selected_location .get_directions_button {
+	background: #f39c12;
+	color: black;
+	padding: 7px 20px;
+	border: 0;
+}
+.selected_location .textual_rating {
+	font-size: 14px;
+
+}
+
+
+.selected_location .reviews_holder {
+
+}
+.selected_location .reviews_holder .review {
+	margin-bottom: 30px;
+	overflow: auto;
+}
+.selected_location .reviews_holder .review .circle {
+	width: 40px;
+	height: 40px;
+	background: #ccc;
+	border-radius: 50%;
+	float: left;
+}
+.selected_location .reviews_holder .review_content {
+	margin-left: 50px;
+}
+.selected_location .reviews_holder .reviewer_name {
+	font-weight: bolder;
+	color: #c0392b;
+	margin-bottom: 5px;
+}

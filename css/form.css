@@ -1,0 +1,17 @@
+form label,
+form input[type='text'],
+form input[type='password'] {
+	display: block;
+	text-align: center;
+	padding: 10px 5px;
+	border: 0;
+}
+form input[type='text'],
+form input[type='password'] {
+	border-bottom: 1px solid #ccc;
+	margin: auto;
+	outline: none;
+}
+form {
+	text-align: center;
+}

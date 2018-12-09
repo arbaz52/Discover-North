@@ -1,0 +1,45 @@
+/*
+<div class='hotel'>
+	<div class='square'></div>
+	<div class='hotel_information'>
+		<div class='left_side'>
+			<div class='hotel_name'>Near Valley Hotel</div>
+		</div>
+		<div class='right_side'>
+			<div class='hotel_rating'>4.5 Stars</div>
+		</div>
+		<div class='hotel_distance_from_location'>43 Miles Away</div>
+	</div>
+</div>
+
+*/
+
+.hotel {
+	padding: 5px 10px;
+	overflow: auto;
+}
+.hotel:active {
+	background: #eee;	
+}
+.hotel .square {
+	width: 40px;
+	height: 40px;
+	background: #ccc;
+	float: left;
+}
+.hotel .hotel_information {
+	margin-left: 50px;
+}
+.hotel .left_side {
+	overflow: auto;
+}
+.hotel .hotel_name {
+	float: left;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.hotel .hotel_rating {
+	float: right;
+	font-size: 13px;
+	margin-bottom: 10px;
+}
