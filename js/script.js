@@ -5,6 +5,7 @@ window.onload = function(){
 
 setup = function(){
 	setup_map()
+	$("nav").slideToggle(0);
 }
 
 
